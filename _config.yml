@@ -83,5 +83,5 @@ theme: hiero
 deploy:
   type: git
   repo: https://gitee.com/siogian/siogian.git
-  branch: master
+  branch: public
   message:
