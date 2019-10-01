@@ -5,7 +5,7 @@
 
 我是一名程序员，我热爱编程，编码我的记忆，是一生的事。
 
-这里是**CODEMYMEMORY SOURCE CODE**。
+[CODEMYMEMORY](http://siogian.github.io) 是我的个人主页，这里是它的源码 **SOURCE CODE**。
 
 #### 软件架构
 软件架构说明
