@@ -10,9 +10,7 @@ description: 如果你想为这世界做些什么，仅有理想是不够的，�
   -- 理查德·马修·斯托曼 (RMS)
 keywords:
 author: 凉小秋
-language:
-- zh-CN
-- en
+language: zh-CN
 timezone:
 
 # URL
@@ -36,7 +34,6 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -77,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid # hiero
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
