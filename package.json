@@ -19,6 +19,7 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
     "hexo-theme-fluid": "^1.8.6",
+    "highlight.js": "^10.5.0",
     "nunjucks": "^3.2.2",
     "underscore.string": "^3.3.5"
   }
