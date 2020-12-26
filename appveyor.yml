@@ -1,0 +1,35 @@
+environment:
+  access_token:
+    secure: 99nAxQF+eIx1pGngFQceH0WCqvTauHARo2XVudXWWURp7DQouPrYXYOcISNeHwyR
+version: debug.{build}
+branches:
+  only:
+  - master
+skip_tags: true
+image: Ubuntu1804
+platform: Any CPU
+init:
+- sh: nvm use 11
+install:
+- sh: npm install
+build_script:
+- sh: npx hexo g
+deploy_script:
+- sh: >-
+    cd public
+
+    git init
+
+    git config user.email "wakeam@outlook.com"
+
+    git config user.name "Xiaojian L."
+
+    echo "https://$($env:access_token):x-oauth-basic@github.com" > ~/.git-credentials
+
+    git remote add master https://github.com/Siogian/siogian.github.io.git
+
+    git add *
+
+    git commit -m "appvoyer deployment"
+
+    git push --set-upstream origin master -f
