@@ -24,7 +24,7 @@ deploy_script:
 
     git config user.name "Xiaojian L."
 
-    echo "https://$($env:access_token):x-oauth-basic@github.com" > ~/.git-credentials
+    echo "https://$($env:access_token):x-oauth-basic@github.com`n" > ~/.git-credentials
 
     git remote add origin https://github.com/Siogian/siogian.github.io.git
 
