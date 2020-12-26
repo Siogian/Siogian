@@ -26,7 +26,7 @@ deploy_script:
 
     echo "https://$($env:access_token):x-oauth-basic@github.com" > ~/.git-credentials
 
-    git remote add master https://github.com/Siogian/siogian.github.io.git
+    git remote add origin https://github.com/Siogian/siogian.github.io.git
 
     git add *
 
