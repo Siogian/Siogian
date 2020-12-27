@@ -1,5 +1,7 @@
 # CODEMYMEMORY SOURCE CODE
 
+[![Build status](https://ci.appveyor.com/api/projects/status/bcr9yv7phh9p8pdr?svg=true)](https://ci.appveyor.com/project/Siogian/siogian)
+
 #### 介绍
 就像计算机使用存储器，人类也如此。遗憾的是，岁月将记忆斑驳，遗失许多美好。抓住时光的尾巴，记录点点星光，与之抗衡。
 
