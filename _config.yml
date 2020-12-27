@@ -80,6 +80,6 @@ theme: fluid
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Siogian/Siogian.github.io.git
-  branch: gh-pages
+  repo: https://github.com/Siogian/siogian.github.io.git
+  branch: master
   message:
