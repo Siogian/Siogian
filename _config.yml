@@ -81,5 +81,5 @@ theme: fluid
 deploy:
   type: git
   repo: https://github.com/Siogian/Siogian.github.io.git
-  branch: master
+  branch: gh-pages
   message:
