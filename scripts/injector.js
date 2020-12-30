@@ -4,3 +4,7 @@ hexo.extend.injector.register('body_end', `
   <script src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js"></script>
   <script defer src="/js/aplayer.js"></script>
 `);
+
+hexo.extend.injector.register('body_end', `
+  <script type="text/javascript" src="/js/click.js"></script>
+`);
