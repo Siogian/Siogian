@@ -35,6 +35,10 @@ default_layout: post
 titlecase: false # Transform title into titlecase
 filename_case: 0
 render_drafts: false
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 highlight:
@@ -72,7 +76,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
