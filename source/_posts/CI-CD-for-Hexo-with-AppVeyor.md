@@ -1,7 +1,11 @@
 ---
 title: CI/CD for Hexo with AppVeyor
 date: 2021-01-04 21:36:00
-tags: DevOps Hexo CI CD AppVeyor
+tags:
+- DevOps
+- Hexo
+- CI/CD
+- AppVeyor
 index_img: /img/CI-CD-for-Hexo-with-AppVeyor/CI-CD-for-Hexo-with-AppVeyor_index_img.png
 ---
 
